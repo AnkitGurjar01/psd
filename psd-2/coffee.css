@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 1250px;
+    margin: 0 auto;
+}
+.sec-1 {
+    background-image: url(./img/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ \(24\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sec-1{
+    padding: 100px 0;
+}
+.row{
+    display: flex;
+}
+.jcs{
+    justify-content: space-between;
+}
+.ali{
+    align-items: center;
+}
+.col-50{
+    width: 50%;
+}
+.col-70{
+    width: 70%;
+}
+.col-30{
+    width: 30%;
+}
+
+.po-re{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+.menu ul li{
+    display: inline-block;
+    margin: 0 100px 0 0 ;
+}
+ul li a{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    text-align: start;
+}
+.img-1{
+    width: 20%;
+}
+.sec-1-text{
+    padding: 100px 0 0  0;
+}
+.cart h1{
+    font-size: 150px;
+    font-family: 'Cormorant Garamond';
+}
+.cart h2{
+    font-size: 33px;
+    color: #ff4b00;
+    margin: 30px 0 0 0 ;
+}
+.cart p{
+    font-size: 17px;
+    width: 70%;
+    margin: 20px 0;
+}
+.btn button{
+    border: none;
+    background-color: #ff4b00;
+    color: white;
+    width: 25%;
+    border-radius: 10px;
+    padding: 10px ;
+    margin: 20px 0 0 0;
+    font-size: 20px;
+}
+.sec-2{
+    padding: 100px 0;
+    overflow: hidden;
+}
+.card{
+    margin: px 0;
+    padding: 0 0 100px 0;
+}
+.card h1{
+    font-size: 130px;
+    color: #000b2c;
+    width: 10%;
+    font-family: 'Cormorant Garamond';
+    margin: 0 0 50px 0;
+    
+}
+.btn-2 button{
+    font-size: 20px;
+    border: none;
+    background-color: #ff4b00;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.card{
+    z-index: 2;
+}
+.card p{
+    font-size: 20px;
+    text-align: end;
+    color: white;
+}
+
+.img-2{
+    z-index: -1;
+    top: 0px;
+    right: -50px;
+}
+.img-3{
+    left: 435px;
+    top: 100px;
+}
+.sec-3{
+    padding: 100px 0;
+}
+.img-4{
+    top: -85px;
+    left: -57px;
+    z-index: -1;
+}
+.sec-3{
+    overflow: hidden;
+}
+.sec-3-text{
+    padding: 50px 0;
+}
+.sec-3-text p{
+    font-size: 20px;
+    color: white;
+    width: 40%;
+
+}
+.sec-3-text h1{
+    text-align: end;
+    display: block;
+    font-size: 130px;
+    color: #000b2c;
+    font-family: 'Cormorant Garamond';
+    margin: 0 0 50px 0;
+}
+.btn-3{
+    display: block;
+    text-align: end;
+}
+.btn-3 button{
+    font-size: 20px;
+    border: none;
+    background-color: #ff4b00;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.img-5{
+    left: 435px;
+}
+.sec-4{
+    padding: 100px 0;
+    overflow: hidden;
+}
+.sec-4-text {
+    padding:100px 0 50px 0;
+}
+.img-6{
+    z-index: -1;
+    top: 0px;
+    right: -90px;
+}
+.sec-4-text h1{
+    font-size: 130px;
+    width: 10%;
+    color: #000b2c;
+    font-family: 'Cormorant Garamond';
+    margin: 0 0 50px 0;
+}
+.sec-4-text p{
+    color: white;
+    font-size: 20px;
+    text-align: end;
+}
+.img-7{
+    left: 435px;
+}
+.sec-5{
+    padding: 30px;
+    border: solid 2px  rgb(2, 2, 88);
+}
+.sec-5-text{
+    padding: 100px 0;
+    border: solid 10px rgb(1, 1, 45);
+}
+
+.sec-5-text h1{
+    font-size: 100px;
+    margin:50px 0 30px 0;
+    font-family: 'Cormorant Garamond';
+    text-align: center;
+}
+.but {
+    display: block;
+    text-align: center;
+}
+.but button{
+    background-color:#efd3c8;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px 30px;
+    margin: 10px 0;
+}
+.sec-5-text p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    width: 70%;
+    padding: 30px 0 0 0 ;
+}
+.img-8 {
+    top: 95px;
+    left: 130px;
+}
+.sec-6{
+    padding: 100px 0;
+}
+.sec-6-text h1{
+    font-size: 75px;
+    text-align: center;
+    color: #122341;
+    margin: 0 0 50px 0;
+}
+.sec-6-text p{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    color: #122341;
+    padding: 50px 0 0 0;
+}
+.p-2 p{
+    padding: 50px 0 0 0 ;
+    font-size: 30px;
+    color: #122341;
+    text-align: center;
+    margin: 0 auto;
+}
+.sec-7{
+    padding: 50px 0;
+}
+
+.sec-7-text {
+    padding: 30px 30px;
+}
+
+ .img-9 img{
+    width: 90%;
+}
+.hed h1{
+    font-size: 100px;
+    color: #122341;
+    text-align: center;
+}
+.sec-7-text {
+    background-color:#122341;
+    margin: 20px 0;
+}
+.sec-7-text h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin:0 0 50px 0;
+}
+.sec-7-text p{
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 30px 0;
+    
+}
+.sec-7-text h3{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 50px 0 20px 0;
+}
+.sec-8-text h1{
+       font-size: 80px;
+       color: #122341;
+       text-align: center;
+       font-family: 'Cormorant Garamond';
+}
+.cl{
+    background-color: #233e6a;
+    width: 50%;
+    border: solid #233e6a;
+    box-shadow: 5px 5px 10px #233e6a;
+    margin: 50px auto;
+    padding: 50px 0;
+}
+.cl h2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.cl h3{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.cl p{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.sec-9{
+    padding: 100px 0;
+}
+.sec-9-text h1{
+    font-size: 75px;
+    color: #122341;
+    text-align: center;
+    margin:0 0 50px 0;
+}
+
+.clo{
+    border: solid 0px;
+    box-shadow: 5px 5px 5px #2a2424;
+    background-color:#233e6a;
+    padding: 0 0 1px 0;
+    margin: 0px 10px;
+}
+.clo img{
+    width: 100%;
+}
+.clo p{
+    font-size: 20px;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    padding: 30px 0;
+}
+.p-3{  
+    background-color:#122341;
+    margin: 100px 20px 20px 20px;
+}
+.img-10 img{
+    width: 60%;
+}
+.img-10{
+    top: 260px;
+    left: -10px;
+}
+.img-11 img{
+    width: 60%;
+}
+.img-11{
+    top: 260px;
+    left: -10px;
+}
+.img-12 img{
+    width: 60%;
+}
+.img-12{
+    top: 260px;
+    left: -10px;
+}
+.sec-10{
+    background-color:#122341;
+    padding: 100px  0 50px 0;
+}
+.sec-10-text h1{
+    color: white;
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+.menu-2{
+    padding: 100px 0 0 0;
+}
+.menu-1 ul li{
+    list-style: none;
+    font-size: 25px;
+    color: white;
+    margin: 20px 10px;
+}
+.img-13 img{
+    top: -20px;
+}
+.m-10 ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 80px 0 0;
+    font-size: 22px;
+    color: white;
+}
+.icon i{
+    font-size: 25px;
+    color:#ff4b00;
+    margin: 0 0 0 40px;
+}
