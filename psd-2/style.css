@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contioner{
+    width: 1250px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.jcs{
+    justify-content: space-between;
+}
+.ali{
+    align-items: center;
+}
+.col-50{
+    width: 50%;
+}
+.col-30{
+    width: 30%;
+}
+.po-re{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+.sec-1{
+    background-image: linear-gradient(90deg, rgba(18,96,96,0.9999999999999999) 0%, rgba(18,96,96,0) 100%),url(./img/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu ul li{
+    margin: 0 30px; 
+    display: inline-block;
+}
+.menu{
+    width: 50%;
+}
+.img-1 {
+    width: 10%;
+    text-align: center;
+}
+.img-1 img{
+    width: 40%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: aliceblue;
+}
+.in input{
+    padding: 3px 5px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.in i{
+    color: aliceblue;
+    font-size: 15px;
+    margin: 0 0 0 -25px;
+}
+.icon {
+    width: 10%;
+    padding: 8px 10px;
+    background-color: #126060;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.icon i{
+    color: aliceblue;
+}
+.sec-1-text{
+    margin: 100px 0 0 0;
+}
+.sec-1-text h1 {
+    padding: 0 0 30px ;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 60px;
+    color: aliceblue;
+}
+.sec-1-text{
+    width: 90%;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+}
+.p-1{
+    width: 70%;
+    margin: 0 auto;
+}
+.sec-1-text p{
+    color:aliceblue;
+    font-size: 20px;
+}
+.im{
+    margin: 50px auto ;
+    width: 70%;
+    
+}
+.btn{
+    width: 50%;
+}
+.btn button{
+    width: 80%;
+    font-size: 15px;
+    padding: 5px 10px 5px 0;
+}
+.btn i{
+    font-size: 20px;
+    margin: 0 0 0 -25px;
+}
+.cart .col-30{
+    background-color: aliceblue;
+
+}
+.cart h2{
+    width: 80%;
+    margin: 0 auto;
+    color:rgb(31, 29, 29);
+    font-size:20px ;
+}
+.cart p{
+    color: #126060;
+    width: 80%;
+    margin: 10px auto;
+}
+.cart img{
+    width: 100%;
+}
+.h-1{
+    width: 80%;
+    margin: 0 auto;
+}
+.h-1 button{
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+    background-color: #126060;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.img-2 img{
+    width: 100%;
+}
+.img-2{
+    top: 100px;
+    right: 110px;
+}
+.img-3 {
+    left: 60px;
+    top: 110px;
+}
+.img-4 {
+    top: 160px;
+    left: 520px;
+}
+.icone {
+    bottom: 30px;
+    left: 55px;
+}
+.icone i{
+    color: aliceblue;
+    font-size: 20px;
+    margin: 10px 0;
+}
